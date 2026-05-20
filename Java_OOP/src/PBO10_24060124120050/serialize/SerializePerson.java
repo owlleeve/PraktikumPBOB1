@@ -30,7 +30,7 @@ public class SerializePerson {
         Person person = new Person("Liv");
         
         try {
-            FileOutputStream fos = new FileOutputStream("src/person.ser");
+            FileOutputStream fos = new FileOutputStream("src/PBO10_24060124120050/serialize/person.ser");
             ObjectOutputStream s = new ObjectOutputStream(fos);
             s.writeObject(person);
             System.out.println("selesai menulis objek person");
